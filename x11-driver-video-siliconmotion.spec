@@ -1,6 +1,6 @@
 Name: x11-driver-video-siliconmotion
-Version: 1.7.4
-Release: %mkrel 3
+Version: 1.7.5
+Release: %mkrel 1
 Summary: X.org driver for Silicon Motion Cards
 Group: System/X11
 URL: http://xorg.freedesktop.org
