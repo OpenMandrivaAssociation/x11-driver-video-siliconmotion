@@ -1,6 +1,6 @@
 Name: x11-driver-video-siliconmotion
-Version: 1.7.6
-Release: 2
+Version: 1.7.7
+Release: 1
 Summary: X.org driver for Silicon Motion Cards
 Group: System/X11
 License: MIT
@@ -15,7 +15,8 @@ Conflicts: xorg-x11-server < 7.0
 Requires: x11-server-common %(xserver-sdk-abi-requires videodrv)
 
 %description
-x11-driver-video-siliconmotion is the X.org driver for Silicon Motion Cards.
+x11-driver-video-siliconmotion is
+the X.org driver for Silicon Motion Cards.
 
 %prep
 %setup -qn xf86-video-siliconmotion-%{version}
