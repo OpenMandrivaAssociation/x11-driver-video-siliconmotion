@@ -3,7 +3,7 @@
 Summary:	X.org driver for Silicon Motion Cards
 Name:		x11-driver-video-siliconmotion
 Version:	1.7.7
-Release:	5
+Release:	6
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
