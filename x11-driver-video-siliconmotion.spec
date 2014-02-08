@@ -8,7 +8,7 @@ Version:	1.7.7
 Release:	0.%git.1
 Source0:	xf86-video-siliconmotion-%{git}.tar.xz
 %else
-Release:	1
+Release:	2
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-siliconmotion-%{version}.tar.bz2
 %endif
 Group:		System/X11
