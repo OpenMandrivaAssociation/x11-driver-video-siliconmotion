@@ -25,6 +25,9 @@ the X.org driver for Silicon Motion Cards.
 [ -e configure ] || ./autogen.sh
 
 %build
+export CC=gcc
+export CXX=g++
+
 %configure
 %make
 
