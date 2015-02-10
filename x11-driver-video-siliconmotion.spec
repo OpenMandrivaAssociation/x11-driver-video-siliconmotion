@@ -9,7 +9,7 @@ Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Patch0:		0001-Remove-miInitializeBackingStore.patch
-
+Patch1:		U_Fix-build-against-xserver-1.17.patch
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
 BuildRequires:	pkgconfig(xproto)
@@ -25,7 +25,7 @@ the X.org driver for Silicon Motion Cards.
 [ -e configure ] || ./autogen.sh
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
@@ -35,4 +35,3 @@ the X.org driver for Silicon Motion Cards.
 %doc COPYING
 %{_libdir}/xorg/modules/drivers/siliconmotion_drv.so
 %{_mandir}/man4/siliconmotion.*
-
