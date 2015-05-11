@@ -2,14 +2,12 @@
 
 Summary:	X.org driver for Silicon Motion Cards
 Name:		x11-driver-video-siliconmotion
-Version:	1.7.7
-Release:	14
+Version:	1.7.8
+Release:	1
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-siliconmotion-%{version}.tar.bz2
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
-Patch0:		0001-Remove-miInitializeBackingStore.patch
-Patch1:		U_Fix-build-against-xserver-1.17.patch
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
 BuildRequires:	pkgconfig(xproto)
