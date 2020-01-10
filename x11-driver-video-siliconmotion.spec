@@ -19,7 +19,7 @@ the X.org driver for Silicon Motion Cards.
 
 %prep
 %setup -qn xf86-video-siliconmotion-%{version}
-%apply_patches
+%autopatch -p1
 [ -e configure ] || ./autogen.sh
 
 %build
