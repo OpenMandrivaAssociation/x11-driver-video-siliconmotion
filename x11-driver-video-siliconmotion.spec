@@ -2,12 +2,12 @@
 
 Summary:	X.org driver for Silicon Motion Cards
 Name:		x11-driver-video-siliconmotion
-Version:	1.7.9
-Release:	3
-Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-siliconmotion-%{version}.tar.bz2
+Version:	1.7.10
+Release:	1
+Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-video-siliconmotion-%{version}.tar.xz
 Group:		System/X11
 License:	MIT
-Url:		http://xorg.freedesktop.org
+Url:		https://xorg.freedesktop.org
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
 BuildRequires:	pkgconfig(xproto)
@@ -27,10 +27,10 @@ export CC=gcc
 export CXX=g++
 
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc COPYING
